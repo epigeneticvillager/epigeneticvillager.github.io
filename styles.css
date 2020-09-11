@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+img {
+    border-radius: 50%;
+  }
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    height: auto;
+    max-width: 100px;
+  }
+
+.profile-name {
+    
+      text-align: center;
+      padding: 10px;
+  }
+
+.links {
+      text-align: center;
+      margin-top: 20px;
+      padding: 18px;
+      border: 2px solid;
+      border-width: 2px;
+      width: 240px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 25px;
+  }
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 2s; 
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 30px;
+    font-size:  12px;
+    font-weight:200;
+}
+
+a:hover {
+    color: #000;
+    background:	#FAEBD7;
+}
